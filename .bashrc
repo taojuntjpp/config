@@ -1,4 +1,4 @@
-# .bash_profile
+# .bashrc
 
 # Get the aliases and functions
 if [ -f ~/.bashrc ]; then
