@@ -1,0 +1,21 @@
+[user]
+	name = taojun
+	email = t@zuo.com
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	ui = true
+[alias]
+	st = status -s -u
+	co = checkout
+	di = diff
+	df = diff --no-ext-diff
+	dl = diff --no-ext-diff HEAD~1 HEAD
+	ci = commit
+	br = branch
+	po = push origin
+	ps = push
+	pl = pull
+	gm = merge --no-ff
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
