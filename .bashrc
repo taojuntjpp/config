@@ -1,8 +1,8 @@
 # .bashrc
 
 # Get the aliases and functions
-if [ -f ~/.bashrc ]; then
-	. ~/.bashrc
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
 fi
 
 # User specific environment and startup programs
