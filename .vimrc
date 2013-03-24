@@ -7,10 +7,13 @@ set backspace=indent,eol,start
 set lbr
 set sm
 set cindent
+set smartindent
+set autoindent
 
+filetype plugin on
 
 inoremap ( ()<LEFT>
 inoremap { {}<LEFT>
 inoremap [ []<LEFT>
-inoremap < <><LEFT>
+
 syntax on
