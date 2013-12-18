@@ -1,6 +1,6 @@
 [user]
 	name = taojun
-	email = t@zuo.com
+	email = taojuntjpp@126.com
 [color]
 	diff = auto
 	status = auto
@@ -22,3 +22,4 @@
 [core]
 	filemode = false
 	autocrlf = input
+	 
