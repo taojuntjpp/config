@@ -1,0 +1,17 @@
+set encoding=utf-8
+set fileencoding=chinese
+set fileencodings=ucs-bom,utf-8,chinese
+
+color molokai
+
+set tabstop=4
+
+set listchars=tab:>-,trail:▪,eol:$
+
+autocmd VimEnter * NERDTree
+let NERDTreeWinPos="right"
+
+nmap <Leader>tl :TlistToggle<CR>
+
+set noexpandtab
+set showtabline=2
