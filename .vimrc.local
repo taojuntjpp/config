@@ -8,10 +8,15 @@ set tabstop=4
 
 set listchars=tab:>-,trail:▪,eol:$
 
-autocmd VimEnter * NERDTree
+"autocmd VimEnter * NERDTree
 let NERDTreeWinPos="right"
 
 nmap <Leader>tl :TlistToggle<CR>
 
 set noexpandtab
 set showtabline=2
+
+let g:LookupFile_MinPatLength=2
+nmap <silent> <leader>lk :LUTags<CR>
+nmap <silent> <leader>ll :LUBufs<CR>
+nmap <silent> <leader>lk :LUWalk<CR>
