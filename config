@@ -8,3 +8,8 @@ Host bitbucket.org
 	PreferredAuthentications publickey
 	IdentityFile ~/.ssh/bitbucket
 
+Host dev
+	User taojun
+	HostName 192.168.1.50
+	PreferredAuthentications publickey
+	IdentityFile ~/.ssh/id_rsa.pub
