@@ -1,0 +1,79 @@
+Host dev
+	User taojun
+	HostName 192.168.1.50
+	#HostName 192.168.31.50
+	PreferredAuthentications publickey
+	IdentityFile ~/.ssh/id_rsa.pub
+
+host cnc_tool
+	User stuart.wan
+	HostName 114.141.158.6
+	IdentityFile ~/.ssh/id_rsa.pub
+	Port 41037
+
+host cnc_web1
+	User stuart.wan
+	HostName 114.141.158.6
+	IdentityFile ~/.ssh/id_rsa.pub
+	Port 41031
+
+host cnc_web2
+	User stuart.wan
+	HostName 114.141.158.6
+	IdentityFile ~/.ssh/id_rsa.pub
+	Port 41036
+
+Host sg_api
+	User ec2-user
+	HostName 122.248.233.173
+	IdentityFile ~/.ssh/JuwaiKey.pem
+
+Host api_staging
+	User ec2-user
+	HostName 54.254.18.178
+	IdentityFile ~/.ssh/JuwaiKey.pem
+
+#Host staging_81_144
+Host staging_79_190
+	User ec2-user
+	#HostName 54.254.81.144
+	HostName 54.254.79.190
+	IdentityFile ~/.ssh/juwai.ssh
+
+Host staging_146_97
+	User ec2-user
+	HostName 175.41.146.97
+	IdentityFile ~/.ssh/juwai.ssh
+
+Host cnc_api1
+	User stuart.wan
+	HostName 114.141.158.6
+	IdentityFile ~/.ssh/id_rsa.pub
+	Port 41042
+
+Host cnc_api2
+	User stuart.wan
+	HostName 114.141.158.6
+	IdentityFile ~/.ssh/id_rsa.pub
+	Port 41043
+
+Host sg_live
+	User ec2-user
+	HostName 175.41.145.238
+	IdentityFile ~/.ssh/juwai.ssh
+
+Host sg_staging
+	User ec2-user
+	HostName 54.179.59.220
+	IdentityFile ~/.ssh/juwai.ssh
+
+Host cnc_db
+	User stuart.wan
+	HostName 114.141.158.6
+	Port 41033
+	IdentityFile ~/.ssh/id_rsa.pub
+
+Host aa_live
+	User ec2-user
+	HostName 54.255.35.159
+	IdentityFile ~/.ssh/juwai.ssh
